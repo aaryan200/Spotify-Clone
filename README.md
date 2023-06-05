@@ -11,7 +11,8 @@ git clone https://github.com/aaryan200/Spotify-Clone.git
 cd Spotify-Clone/
 npm i
 ```
-* Insert your Rapid API key in `src/redux/services/shazamCore.js` and run the app
+* Insert your Rapid API key in `src/redux/services/shazamCore.js` and geo.ipfy key in `src/pages/AroundYou.jsx`
+* Run the app
 ```bash
 npm run dev
 ```
