@@ -11,7 +11,7 @@ const AroundYou = () => {
     const {data, isFetching, error} = useGetSongsByCountryQuery(country);
     // console.log(country);
     useEffect(() => {
-        axios.get(`https://geo.ipify.org/api/v2/country?apiKey=at_rfmhDTGKFq4TlIUt9lkjnzYvnlAwF`)
+        axios.get(`https://geo.ipify.org/api/v2/country?apiKey=<YOUR_KEY>`)
         .then((res) => setCountry(res?.data?.location?.country))
         .catch((err) => console.log(err))
         .finally(() => setLoading(false));
